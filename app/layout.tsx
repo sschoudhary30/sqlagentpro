@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SQLAgent Pro",
   description: "SQLAgent Pro",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
